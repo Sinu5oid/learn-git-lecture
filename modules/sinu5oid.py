@@ -9,12 +9,12 @@ def bubbleSort(list):
                 result[i], result[j] = result[j], result[i]
     return result
 
-def generateList(len):
+def generateListWithCustomLength(len):
     return [randint(0, 10) for i in range(len)]
 
 # if runs as standalone module
 if __name__ == "__main__":
-    list = generateList(10)
+    list = generateListWithCustomLength(10)
 
     print('Unsorted list')
     print(list)

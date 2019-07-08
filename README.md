@@ -13,6 +13,10 @@
 1. Click `New pull request` here
 
     ![new pull request button](docs/img/new-pull-request-button.png)
+
+1. Select your branch
+    ![select a branch here](docs/img/select-a-branch.png)
+    
 1. Use this template to fill pull request (you can also find it in `./github/PULL_REQUEST_TEMPLATE.md`):
 
     ```
@@ -28,9 +32,12 @@
     ### Todo/notes
     -
     ```
+
+    ![create a PR](docs/img/create-pull-request.png)
 1. Create a pull request
 1. You can review other's PRs and add comments
 1. Wait for an approval
+1. Done!
 
 ---
 ## Useful docs:

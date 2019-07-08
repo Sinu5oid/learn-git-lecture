@@ -10,11 +10,6 @@ if __name__ == "__main__":
     print(sinu5oid.bubbleSort(list))
     # and above here
    
-    print('\n')
-    print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-    print("                            There is jebbyk's symple rasteriser")
-    print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-
     buffer = rasteriser.createBuffer(48, 48)
 
     rasteriser.putPoint(buffer, 6, 16)
@@ -23,6 +18,5 @@ if __name__ == "__main__":
     rasteriser.putFilledTriangle(buffer, 16, 48, 48, 36, 24, 16)
     
     rasteriser.printBuffer(buffer)
-
 
     pass
